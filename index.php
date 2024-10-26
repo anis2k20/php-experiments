@@ -1,4 +1,22 @@
+<?php
 
+$a = "Hello";
+$b = "world";
+$c = $a . " ". $b;
+
+$d = 2;
+$d += 4;
+
+echo $c;
+echo $d;
+
+if($c == $d){
+    echo "matched";
+}else{
+    echo "Not Matched";
+}
+echo "<br><br>";
+?>
 
 <!DOCTYPE html>
 <html lang="en">
